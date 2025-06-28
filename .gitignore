@@ -39,3 +39,15 @@ yarn-error.*
 
 expo-env.d.ts
 # @end expo-cli
+android/
+ios/
+builds/
+*.apk
+*.ipa
+*.aab
+*.app
+
+# Local build environment
+.env.local
+.env.production.local
+.env.development.local
