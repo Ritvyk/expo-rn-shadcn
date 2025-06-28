@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build outputs
+dist/
+build/
+web-build/
+
+# Native builds
+ios/
+android/
+
+# Config files that don't need linting
+*.config.js
+*.config.ts
+babel.config.js
+metro.config.js
+tailwind.config.js
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Generated files
+*.tsbuildinfo
+
+# Legacy ESLint config
+.eslintrc.* 
